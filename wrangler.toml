@@ -1,0 +1,15 @@
+name = "nam-anh-studio-portal"
+main = "src/index.js"
+compatibility_date = "2026-08-28"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nam-anh-studio"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+# Set these to the Cloudflare Access application values. Do not put secrets here.
+CF_ACCESS_TEAM_DOMAIN = "https://YOUR-TEAM.cloudflareaccess.com"
+CF_ACCESS_AUD = "REPLACE_WITH_ACCESS_APPLICATION_AUDIENCE_TAG"
+# Optional when the API is hosted separately from the static site.
+# APP_ORIGIN = "https://your-site.example"
